@@ -45,113 +45,35 @@ const questions = [
         }
     },
     {
-        type: 'confirm',
-        name: 'confirmDesc',
-        message: 'Would you like to include a description about your project?',
-        default: false
-    },
-    {
         type: 'input',
         name: 'desc',
         message: 'Provide a description for your project.',
-        when: ({confirmDesc}) => {
-            if (confirmDesc) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-    },
-    {
-        type: 'confirm',
-        name: 'confirmInstall',
-        message: 'Would you like to include installation instructions for your project?',
-        default: false
     },
     {
         type: 'input',
         name: 'install',
         message: 'Provide installation instructions for your project.',
-        when: ({confirmInstall}) => {
-            if (confirmInstall) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-    },
-    {
-        type: 'confirm',
-        name: 'confirmUsage',
-        message: 'Would you like to include usage information for your project?',
-        default: false
     },
     {
         type: 'input',
         name: 'usage',
         message: 'Provide usage information for your project.',
-        when: ({confirmUsage}) => {
-            if (confirmUsage) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-    },
-    {
-        type: 'confirm',
-        name: 'confirmContribute',
-        message: 'Would you like to include contribution guidelines for your project?',
-        default: false
     },
     {
         type: 'input',
         name: 'contribute',
         message: 'Provide contribution guidelines for your project.',
-        when: ({confirmContribute}) => {
-            if (confirmContribute) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-    },
-    {
-        type: 'confirm',
-        name: 'confirmTest',
-        message: 'Would you like to include test instructions for your project?',
-        default: false
     },
     {
         type: 'input',
         name: 'test',
         message: 'Provide test instructions for your project.',
-        when: ({confirmTest}) => {
-            if (confirmTest) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-    },
-    {
-        type: 'confirm',
-        name: 'confirmLicense',
-        message: 'Would you like to choose a license for your project?',
-        default: false
     },
     {
         type: 'list',
         name: 'license',
         message: 'Pick a license',
         choices: ['MIT', 'GPL', 'Apache', 'BSD', 'ISC'],
-        when: ({confirmLicense}) => {
-            if (confirmLicense) {
-                return true;
-            } else {
-                return false;
-            }
-        }
     },
 ];
 
@@ -175,8 +97,9 @@ function init() {
             // after all answers are collected, write to file
             // Build a string that uses our answers to generate some markdown and write that to our file as the 'dat' parameter. Replace the test values below
             writeToFile('./dist/README.md', generateMarkdown(answers));
-        });
-}
+        })
+        .catch((err) => console.log(err))
+};
 
 // Function call to initialize app
 init();
