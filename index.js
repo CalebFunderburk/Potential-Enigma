@@ -174,7 +174,7 @@ function init() {
 
             // after all answers are collected, write to file
             // Build a string that uses our answers to generate some markdown and write that to our file as the 'dat' parameter. Replace the test values below
-            writeToFile('README.md', generateMarkdown(answers));
+            writeToFile('./dist/README.md', generateMarkdown(answers));
         });
 }
 
