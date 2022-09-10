@@ -9,16 +9,16 @@ Potential Enigma is a command-line application that accepts user input in order 
 - Code editor (Visual Studio Code is reccomended)
 - Command line terminal (GitBash, PowerShell, Terminal, etc.)
 - Most recent version of Node.JS
-- Inquirer NPM
 - Clone the Potential Enigma project file onto your machine
 
 ## How to Use
 
 After gathering the necessary tools mentioned above, open the Potential Enigma project file in your code editor. At this time, open your command line terminal and navigate to the root directory for Potential Enigma. Once you are in the root directory run the following command in yoru command line: node index.js. This command will begin a series of prompts. Once you have answered all of the prompts, your README.md file will be generated and stored in the "dist" folder located in the root directory for Potential Enigma.
+<br/>
+<br/>
+Please refer to this video for additional help on getting started:
 
-## Video Demo:
-
-
+[Demonstration Video]()
 
 ## Sample README.md:
 

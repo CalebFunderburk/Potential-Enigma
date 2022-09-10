@@ -39,7 +39,7 @@ ${data.usage}
 
 ## License
 
-${data.license}
+This project is protected under the ${data.license} License.
 
 ## Contribution Guidelines
 
