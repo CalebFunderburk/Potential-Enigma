@@ -18,7 +18,7 @@ After gathering the necessary tools mentioned above, open the Potential Enigma p
 <br/>
 Please refer to this video for additional help on getting started:
 
-[Demonstration Video]()
+[Demonstration Video](https://www.youtube.com/watch?v=lLnsE5pB2cg)
 
 ## Sample README.md:
 
