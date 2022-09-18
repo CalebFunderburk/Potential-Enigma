@@ -1,10 +1,10 @@
 # Sample
 
-MIT
+![Github licence](https://img.shields.io/badge/license-Apache-blue)
 
 ## Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+sgzsgzsegzse
 
 ## Table of Contents
 
@@ -17,28 +17,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Installation Instructions
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+gzsegzsegzseg
 
 ## Usage Information
           
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+zsegzsegzsegzseg
 
 ## License
 
-This project is protected under the MIT License.
+This project is protected under the Apache License.
 
 ## Contribution Guidelines
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+zsegzsegzsegzseg
 
 ## Testing Instructions
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+zsegzsegzsegz
 
 ## Questions
 
 For any additional questions or concerns, feel free to contact me via email.
 <br/>
-John@mail.com
+john@mail.com
 <br/>
 [My GitHub Profile](https://github.com/JohnDoe)

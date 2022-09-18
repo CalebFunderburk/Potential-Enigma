@@ -14,7 +14,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-${data.license}
+![Github licence](https://img.shields.io/badge/license-${data.license}-blue)
 
 ## Description
 
