@@ -8,7 +8,7 @@ Potential Enigma is a command-line application that accepts user input in order 
 
 ### User Story
 
-As a web developer looking for a way to create a high quiality README.md file, I would like an application that accepts my user input to display it in Markdown in a sleek way. When I run the application, I am presented with a series of prompts that ask me for information regarding the project I am working on. Once the prompts have been answered, I can view my generated README.md file in the dist folder of my project.
+As a web developer looking for a way to create a high quiality README.md file, I would like an application that accepts my user input to generate a sleek Markdown file. When I run the application, I am presented with a series of prompts that ask me for information regarding the project I am working on. Once the prompts have been answered, I can view my generated README.md file in the dist folder of my project.
 
 ### Features
 
