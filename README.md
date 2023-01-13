@@ -12,9 +12,9 @@ As a web developer looking for a way to create a high quiality README.md file, I
 
 ### Features
 
-1. The README.md file comes fully equiped with areas for the description, installation instructions, usage information, licensing, contribution guidelines, and testing instructions.
-2. There is a section for your GitHub profile and email address incase users wish to contact you about your project.
-3. Also includeded is a fully functional table of contents, that takes your users to the corresponding section in your generated README.md file.
+* The README.md file comes fully equiped with areas for the description, installation instructions, usage information, licensing, contribution guidelines, and testing instructions.
+* There is a section for your GitHub profile and email address incase users wish to contact you about your project.
+* Also includeded is a fully functional table of contents, that takes your users to the corresponding section in your generated README.md file.
 
 ## Installation
 
